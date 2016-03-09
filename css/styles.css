@@ -4,6 +4,10 @@
 body, div{
 	margin: 0; padding: 0;
 }
+a{
+	display: block;
+	
+}
 
 /**/
 
