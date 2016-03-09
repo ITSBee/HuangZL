@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/* 样式重置 */
+body, div{
+	margin: 0; padding: 0;
+}
+
+/**/
+
+.swiper-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6{
+	height: 100%;
+	background: url(../images/background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.s1{
+	background: url(../images/s1.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.s2{
+	background: #f00 url(../images/s2.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.s3 .a01{
+	height: 60%;
+	top: 0;
+	background: url(../images/s3-01.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*box-sizing: border-box;*/
+	
+}
+
+.s3 .a02{
+	height: 40%;
+	top: 60%;
+	background: #0f0 url(../images/s3-02.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.s4 .a01{
+	height: 60%;
+	top: 0;
+	background: url(../images/s4-01.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*box-sizing: border-box;*/
+	
+}
+
+.s4 .a02{
+	height: 40%;
+	top: 60%;
+	background: #0f0 url(../images/s4-02.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.s5 .a01{
+	height: 60%;
+	top: 0;
+	background: url(../images/s5-01.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*box-sizing: border-box;*/
+	
+}
+
+.s5 .a02{
+	height: 40%;
+	top: 60%;
+	background: #0f0 url(../images/s5-02.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.s6 .a01{
+	height: 60%;
+	top: 0;
+	background: url(../images/s6-01.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*box-sizing: border-box;*/
+	
+}
+
+.s6 .a02{
+	height: 40%;
+	top: 60%;
+	background: #0f0 url(../images/s6-02.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
